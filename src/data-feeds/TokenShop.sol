@@ -2,7 +2,7 @@
 pragma solidity ^0.8.33;
 
 import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
-import {Ownable} from "@openzeppelin/contracts@5.5.0/access/Ownable.sol";
+import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {MyERC20} from "./MyERC20.sol";
 
 contract TokenShop is Ownable {
