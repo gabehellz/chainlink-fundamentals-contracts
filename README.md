@@ -25,3 +25,9 @@ $ forge install openzeppelin-contracts-5.5.0=https://github.com/OpenZeppelin/ope
 ```shell
 $ forge test --match-path 'test/data-feeds/*'
 ```
+
+### CCIP
+
+``` shell
+$ forge test --match-path 'test/ccip/*'
+```
