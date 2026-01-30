@@ -16,6 +16,8 @@ $ cd chainlink-fundamentals-contracts
 ```shell
 $ forge install https://github.com/smartcontractkit/chainlink-evm@branch=contracts-solidity/1.5.0 
 $ forge install openzeppelin-contracts-5.5.0=https://github.com/OpenZeppelin/openzeppelin-contracts@v5.5.0
+$ forge install https://github.com/smartcontractkit/chainlink-ccip
+$ forge install https://github.com/smartcontractkit/chainlink-local
 ```
 
 ## Tests
