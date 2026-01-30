@@ -16,6 +16,7 @@ $ cd chainlink-fundamentals-contracts
 ```shell
 $ forge install https://github.com/smartcontractkit/chainlink-evm@branch=contracts-solidity/1.5.0 
 $ forge install openzeppelin-contracts-5.5.0=https://github.com/OpenZeppelin/openzeppelin-contracts@v5.5.0
+$ forge install openzeppelin-contrcts-4.9.6=https://github.com/OpenZeppelin/openzeppelin-contracts@v4.9.6
 $ forge install https://github.com/smartcontractkit/chainlink-ccip
 $ forge install https://github.com/smartcontractkit/chainlink-local
 ```
@@ -32,4 +33,10 @@ $ forge test --match-path 'test/data-feeds/*'
 
 ``` shell
 $ forge test --match-path 'test/ccip/*'
+```
+
+### VRF
+
+``` shell
+$ forge test --match-path 'test/vrf/*'
 ```
